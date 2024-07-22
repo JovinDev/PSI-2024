@@ -1,0 +1,9 @@
+venv\scripts\activate
+
+pip install django Django ==4.2.7
+
+pip install pillow
+
+python manage.py runserver 127.0.0.1:8080
+
+http://127.0.0.1:8080
